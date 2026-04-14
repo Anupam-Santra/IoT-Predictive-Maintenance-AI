@@ -7,7 +7,7 @@ import os
 
 def train():
     print("Loading dataset...")
-    df = pd.read_csv('data/iot_sensor_data.csv')
+    df = pd.read_csv('data/showcase_iot_data.csv')
     
     # Define features (X) and target (y)
     X = df[['temperature', 'vibration', 'pressure']]
